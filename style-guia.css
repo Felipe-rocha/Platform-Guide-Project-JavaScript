@@ -1,5 +1,11 @@
 .titulo-principal{
-    background-color: yellow;
+    background-color: blue;
+    text-align: center;
+    
+}
+
+.principal{
+    text-align: center;
 }
 
 .botao-produto-guia{
@@ -29,6 +35,10 @@
 
 .div-botao{
     text-align: center;
+}
+
+.body-pagina{
+    background-color: blue;
 }
 
 
