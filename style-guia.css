@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.botao-produto-guia{
+#botao-tipo-guia{
     width: 25%;
     text-align: center;
     background-color: #f19700;
@@ -25,12 +25,11 @@
     box-sizing: border-box;
 }
 
-.botao-produto-guia:hover {
+#botao-tipo-guia:hover {
     font-size: 31px;
     padding: 25px;
     transition: 0.2s;
     width: 27%;
-    
 }
 
 .div-botao{
@@ -51,5 +50,10 @@
     top: 60%;
     left: 20%;
     text-align: left;
+    font-size: 30px;
 }
 
+#invisivel{
+    display: none;
+    transition-delay: 1s;
+}
