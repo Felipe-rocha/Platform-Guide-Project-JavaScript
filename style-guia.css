@@ -41,4 +41,15 @@
     background-color: blue;
 }
 
+.menu-lateral{
+    position: absolute;
+    font-size: 30px;
+}
+
+.texto-guia{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    text-align: left;
+}
 
