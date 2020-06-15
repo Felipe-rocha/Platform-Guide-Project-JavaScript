@@ -1,5 +1,4 @@
 .titulo-principal{
-    background-color: blue;
     text-align: center;
     
 }
@@ -26,39 +25,40 @@
 }
 
 #botao-tipo-guia:hover {
-    font-size: 31px;
-    padding: 25px;
+    font-size: 30px;
+    padding: 23px;
     transition: 0.2s;
     width: 27%;
 }
 
 .div-botao{
     text-align: center;
+    display: block;
+    position: relative;
 }
 
 .body-pagina{
-    background-color: blue;
+
 }
 
 .menu-lateral{
     display: block;
     position: absolute;
     font-size: 30px;
-    background-color: #0000ff;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .texto-guia{
-    position: absolute;
-    top: 60%;
-    left: 20%;
+    position: static;
+    margin-left: 250px;
     text-align: left;
     font-size: 30px;
+    display: block;
 }
 
 #invisivel{
     display: none;
-    transition-delay: 1s;
 }
 
 .texto-exibido{
