@@ -41,8 +41,11 @@
 }
 
 .menu-lateral{
+    display: block;
     position: absolute;
     font-size: 30px;
+    background-color: #0000ff;
+    overflow: hidden;
 }
 
 .texto-guia{
@@ -56,4 +59,20 @@
 #invisivel{
     display: none;
     transition-delay: 1s;
+}
+
+.texto-exibido{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 70px 30px;
+}
+
+#itens-menu{
+    
+}
+
+#itens-menu:hover{
+    transition-delay: 0.3s;
+    background-color: #0101a0;
+    cursor: pointer;
 }
